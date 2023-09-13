@@ -44,4 +44,4 @@ COPY maintenance.sh /maintenance.sh
 # Script to create cron entry
 COPY entrypoint.sh /entrypoint.sh
 
-# ENTRYPOINT ["/entrypoint.sh"]
+ENTRYPOINT ["/entrypoint.sh"]
