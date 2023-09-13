@@ -5,7 +5,7 @@ Synapse Maintenance Docker Image
 
 ```yaml
   synapse-maintenance:
-    image:
+    image: ghcr.io/morice117/synapse-maintenance:master
     container_name: synapse-maintenance
     environment:
       - POSTGRES_USER="synapse"
